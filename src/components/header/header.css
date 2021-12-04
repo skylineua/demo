@@ -1,0 +1,28 @@
+.App-Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 0;
+    left: 120px;
+    position: fixed;
+}
+
+.App-Header-Menu {
+    width: 1600px;
+    height: 80px;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.App-Header-Menu-Item {
+    width: auto;
+    height: 40px;
+    background-color: khaki;
+    font-size: 24px;
+    color: white;
+    padding: 2px 16px 2px 16px;
+    margin: 10px;
+}
